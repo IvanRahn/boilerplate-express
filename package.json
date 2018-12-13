@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --watch ./tests",
+    "test": "jest --coverage --watch test",
     "start": "forever -c \"nodemon exitcrash -L\" index.js"
   },
   "jest": {
@@ -25,6 +25,7 @@
     "pug": "^2.0.3"
   },
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
   }
 }
